@@ -8,6 +8,6 @@
 	</author>
 	<content src="index.html" />
 	<access origin="*" />
-	<icon src="images/icon.png" width="100px"/>
+	<icon src="images/icon.png"/>
 	<splash src="images/dota.jpg">
 </widget>
