@@ -5,6 +5,10 @@
 		function pageLoaded()
 		{
 			document.addEventListener("deviceready",siapsedia);
+			document.getElementById("resume",function()
+			{
+				document.getElementById("msg").innerHTML = "App resumed";
+			},false);
 		}
 		
 		function siapsedia()
@@ -22,5 +26,11 @@
 	<h1>Welcome to PhoneGap</h1>
 	This is our first mobile app using PhoneGap
 	<p id="msg"></p>
+	<div>
+		Navigation:
+			<ul>
+				<li><a href="accel.html">Accelerometer</li>
+			</ul>
+	</div>
 </body>
 </html>
