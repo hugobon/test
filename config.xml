@@ -16,7 +16,7 @@
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         Hardeep Shoker 
     </author>
-	<icon src="images/icon.png">
-	<gap:splash src="dota.png">
+	<icon src="images/icon.png" />
+	<gap:splash src="dota.png" />
 
 </widget>
