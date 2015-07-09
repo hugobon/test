@@ -17,6 +17,6 @@
         Hardeep Shoker 
     </author>
 	<icon src="images/icon.png">
-	<gapsplash src="dota.png">
+	<gap:splash src="dota.png">
 
 </widget>
