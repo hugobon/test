@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script>
+		function pageLoaded()
+		{
+			document.addEventListener("deviceready",siapsedia);
+		}
+		
+		function siapsedia()
+		{
+			navigator.notification.alert("App is ready.",mulakerja,"The New Test App","Sudah! Jom jalan!");
+		}
+		
+		function mulakerja()
+		{
+			document.getElementById("msg").innerHTML = "Kerja boleh dimulakan";
+		}
 </head>
-<body>
-	<img src="images/back.png"
+<body onload="pageLoaded()">
+	<img src="images/icon.png">
 	<h1>Welcome to PhoneGap</h1>
 	This is our first mobile app using PhoneGap
+	<p id="msg"></p>
 </body>
 </html>
